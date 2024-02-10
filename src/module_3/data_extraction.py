@@ -11,7 +11,6 @@ def data_download():
 
     for key,data, in zip(key_i,data_i):
         for file in data:
-            print(bucket_name, key+file, file)
             s3.download_file(bucket_name, key+file, file)
 
 def main ():
