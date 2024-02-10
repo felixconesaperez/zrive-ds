@@ -350,6 +350,17 @@ dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
+name = "pyarrow"
+version = "15.0.0"
+description = "Python library for Apache Arrow"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.dependencies]
+numpy = ">=1.16.6,<2"
+
+[[package]]
 name = "pycodestyle"
 version = "2.11.1"
 description = "Python style guide checker"
@@ -529,7 +540,7 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.11"
-content-hash = "6266d2704ffa3393bc82380aa4c3aa4e3a06e00b576c7b9ffe3f92b2dc02c20d"
+content-hash = "48e0904ccf102f0a55935e153968a32bbfbd781d8ffc94c5d7b4fd1bdaaeff02"
 
 [metadata.files]
 black = []
@@ -559,6 +570,7 @@ pathspec = []
 pillow = []
 platformdirs = []
 pluggy = []
+pyarrow = []
 pycodestyle = []
 pyflakes = []
 pyparsing = []
