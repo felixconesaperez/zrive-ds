@@ -166,3 +166,6 @@ cython_debug/
 
 # The folder with data
 Data/
+
+# Commands testing
+testing_python_vsc.py
