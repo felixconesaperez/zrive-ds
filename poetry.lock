@@ -518,6 +518,14 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
+name = "sklearn"
+version = "0.0.post12"
+description = "deprecated sklearn package, use scikit-learn instead"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "threadpoolctl"
 version = "3.2.0"
 description = "threadpoolctl"
@@ -558,7 +566,7 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.11"
-content-hash = "56b9b5ab4cf6ceb861a1b0e4afeed3e154561fbaa157d12ba96fc679edf74e0e"
+content-hash = "9f175b38998d76c32991246a9bc94eae41c507ed756c1727a1b7fcfadfb9f74d"
 
 [metadata.files]
 black = []
@@ -601,6 +609,7 @@ scikit-learn = []
 scipy = []
 seaborn = []
 six = []
+sklearn = []
 threadpoolctl = []
 typing-extensions = []
 tzdata = []
